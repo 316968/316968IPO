@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +27,7 @@ namespace _316968IPO
 
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
-            /*decimal length = 0;
+            decimal length = 0;
             decimal width = 0;
             decimal.TryParse(txtLength.Text, out length);
             decimal.TryParse(txtWidth.Text, out width);
@@ -37,15 +37,7 @@ namespace _316968IPO
             if (area > 0)
                 MessageBox.Show(area.ToString());
             else if (area <= 0)
-                MessageBox.Show("area cannot be less or equal to 0");*/
-
-            decimal length = 0;
-
-
-            if (Double.TryParse(txtLength.Text, out double result))
-                MessageBox.Show(result.ToString());
-            else
-                MessageBox.Show("Unable to parse {0}.", txtLength.Text);
+                MessageBox.Show("area cannot be less or equal to 0");
         }
     }
 }
