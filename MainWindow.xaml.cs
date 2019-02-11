@@ -1,3 +1,6 @@
+/* Quinn Parker-joyes
+february 11 2019
+ipo model*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
